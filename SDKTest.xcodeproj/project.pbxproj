@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85043C70AC4A0C45B2BBB8C4 /* libPods-SDKTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7C004C0F178190D7111853 /* libPods-SDKTest.a */; };
 		9AE7ED781DCA00A60078CC96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7ED771DCA00A60078CC96 /* main.m */; };
 		9AE7ED7B1DCA00A60078CC96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7ED7A1DCA00A60078CC96 /* AppDelegate.m */; };
 		9AE7ED7E1DCA00A60078CC96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7ED7D1DCA00A60078CC96 /* ViewController.m */; };
 		9AE7ED811DCA00A60078CC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7ED7F1DCA00A60078CC96 /* Main.storyboard */; };
 		9AE7ED831DCA00A60078CC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7ED821DCA00A60078CC96 /* Assets.xcassets */; };
 		9AE7ED861DCA00A60078CC96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7ED841DCA00A60078CC96 /* LaunchScreen.storyboard */; };
+		9AE7ED8E1DCA034A0078CC96 /* adobe-development.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AE7ED8D1DCA034A0078CC96 /* adobe-development.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05A8507C395FB5B2286AACC2 /* Pods-SDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDKTest/Pods-SDKTest.release.xcconfig"; sourceTree = "<group>"; };
+		2D7C004C0F178190D7111853 /* libPods-SDKTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE7ED731DCA00A60078CC96 /* SDKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE7ED771DCA00A60078CC96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AE7ED791DCA00A60078CC96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,9 @@
 		9AE7ED821DCA00A60078CC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AE7ED851DCA00A60078CC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AE7ED871DCA00A60078CC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE7ED8D1DCA034A0078CC96 /* adobe-development.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "adobe-development.json"; sourceTree = "<group>"; };
+		9AE7ED8F1DCA04F90078CC96 /* SDKTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SDKTest.entitlements; sourceTree = "<group>"; };
+		BA2D7CD118070F46987BC3AC /* Pods-SDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDKTest/Pods-SDKTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85043C70AC4A0C45B2BBB8C4 /* libPods-SDKTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D10717A029832AB552B0E51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D7C004C0F178190D7111853 /* libPods-SDKTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9AE7ED6A1DCA00A60078CC96 = {
 			isa = PBXGroup;
 			children = (
 				9AE7ED751DCA00A60078CC96 /* SDKTest */,
 				9AE7ED741DCA00A60078CC96 /* Products */,
+				F766A3588D3C9925B0172ECE /* Pods */,
+				8D10717A029832AB552B0E51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +76,7 @@
 		9AE7ED751DCA00A60078CC96 /* SDKTest */ = {
 			isa = PBXGroup;
 			children = (
+				9AE7ED8F1DCA04F90078CC96 /* SDKTest.entitlements */,
 				9AE7ED791DCA00A60078CC96 /* AppDelegate.h */,
 				9AE7ED7A1DCA00A60078CC96 /* AppDelegate.m */,
 				9AE7ED7C1DCA00A60078CC96 /* ViewController.h */,
@@ -74,9 +93,19 @@
 		9AE7ED761DCA00A60078CC96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9AE7ED8D1DCA034A0078CC96 /* adobe-development.json */,
 				9AE7ED771DCA00A60078CC96 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F766A3588D3C9925B0172ECE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA2D7CD118070F46987BC3AC /* Pods-SDKTest.debug.xcconfig */,
+				05A8507C395FB5B2286AACC2 /* Pods-SDKTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AE7ED8A1DCA00A60078CC96 /* Build configuration list for PBXNativeTarget "SDKTest" */;
 			buildPhases = (
+				458ACA58A6CD013EDB7A25B4 /* [CP] Check Pods Manifest.lock */,
 				9AE7ED6F1DCA00A60078CC96 /* Sources */,
 				9AE7ED701DCA00A60078CC96 /* Frameworks */,
 				9AE7ED711DCA00A60078CC96 /* Resources */,
+				25AA80535C454C8B04C807F5 /* [CP] Embed Pods Frameworks */,
+				34AE368B2D675CBB2A25DED0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,7 +142,13 @@
 				TargetAttributes = {
 					9AE7ED721DCA00A60078CC96 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4LCGPRX24T;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,12 +176,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AE7ED861DCA00A60078CC96 /* LaunchScreen.storyboard in Resources */,
+				9AE7ED8E1DCA034A0078CC96 /* adobe-development.json in Resources */,
 				9AE7ED831DCA00A60078CC96 /* Assets.xcassets in Resources */,
 				9AE7ED811DCA00A60078CC96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25AA80535C454C8B04C807F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDKTest/Pods-SDKTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34AE368B2D675CBB2A25DED0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDKTest/Pods-SDKTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		458ACA58A6CD013EDB7A25B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AE7ED6F1DCA00A60078CC96 /* Sources */ = {
@@ -268,9 +355,13 @@
 		};
 		9AE7ED8B1DCA00A60078CC96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2D7CD118070F46987BC3AC /* Pods-SDKTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SDKTest/SDKTest.entitlements;
+				DEVELOPMENT_TEAM = 4LCGPRX24T;
 				INFOPLIST_FILE = SDKTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testing.SDKTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,9 +370,13 @@
 		};
 		9AE7ED8C1DCA00A60078CC96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A8507C395FB5B2286AACC2 /* Pods-SDKTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SDKTest/SDKTest.entitlements;
+				DEVELOPMENT_TEAM = 4LCGPRX24T;
 				INFOPLIST_FILE = SDKTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testing.SDKTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +402,7 @@
 				9AE7ED8C1DCA00A60078CC96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

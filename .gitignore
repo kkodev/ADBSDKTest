@@ -1,0 +1,16 @@
+# Mac OS X
+.DS_Store
+
+# Xcode
+*.xccheckout
+xcuserdata
+WorkspaceSettings.xcsettings
+
+# AppCode
+.idea
+
+# Carthage
+Carthage/Checkouts
+
+#TeamCity
+Artifacts

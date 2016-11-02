@@ -1,0 +1,12 @@
+PODS:
+  - AdobeMobileSDK (4.5.6)
+
+DEPENDENCIES:
+  - AdobeMobileSDK
+
+SPEC CHECKSUMS:
+  AdobeMobileSDK: c761b33bbb1bb1f2aa16b37176191bea1ffdea48
+
+PODFILE CHECKSUM: ee935c90eea44facaee45afd26f0d6993af900c1
+
+COCOAPODS: 1.1.1
